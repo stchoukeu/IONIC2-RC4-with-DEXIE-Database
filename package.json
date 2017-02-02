@@ -1,0 +1,67 @@
+{
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
+  },
+  "config": {
+    "ionic_sass": "./scripts/sass.config.js"
+  },
+  "dependencies": {
+   "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "@ionic/storage": "1.1.7",
+    "ionic-angular": "2.0.0-rc.5",
+    "ionic-native": "2.2.11",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.26",
+    "sw-toolbox": "3.4.0",
+    "@types/cropperjs": "0.0.22",
+    "cropperjs": "^1.0.0-beta",
+    "dexie": "^1.5.1",
+    "dexie-observable": "^0.9.2",
+    "moment": "^2.17.1",
+    "ng2-translate": "^5.0.0"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "1.0.0",
+    "typescript": "2.0.9"
+  },
+  "cordovaPlugins": [
+	 "cordova-plugin-streaming-media",
+    "com-sarriaroman-photoviewer",
+    "cordova-plugin-app-event",
+    "cordova-plugin-camera",
+    "cordova-plugin-compat",
+    "cordova-plugin-console",
+    "cordova-plugin-contacts",
+    "cordova-plugin-device",
+    "cordova-plugin-image-picker",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-sqlite-2",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-videoplayer",
+    "cordova-plugin-whitelist",
+    "cordova-sqlite-storage",
+    "de.appplant.cordova.plugin.local-notification",
+    "ionic-plugin-keyboard",
+    "call-number",
+	  "cordova-plugin-file",
+	  "cordova-plugin-sim"
+  ],
+  "cordovaPlatforms": [],
+  "description": "toolter: An Ionic project"
+}
